@@ -1,0 +1,6 @@
+<resources>
+    <!-- Base application theme. Uses Compose Material3, so this is a bridge theme. -->
+    <style name="Theme.AuthApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

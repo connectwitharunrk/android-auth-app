@@ -16,6 +16,7 @@ import com.example.authapp.presentation.navigation.Screen
 import com.example.authapp.presentation.theme.PrimaryColor
 import kotlinx.coroutines.flow.collectLatest
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     navController: NavController,
